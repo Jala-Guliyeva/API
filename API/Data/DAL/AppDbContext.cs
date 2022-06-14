@@ -8,6 +8,6 @@ namespace API.DAL
         {
 
         }
-        public DbSet<Product> Products ; 
+        public DbSet<Product> Products { get; set; }
     }
 }
